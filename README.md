@@ -1,7 +1,7 @@
 Cannacoin integration/staging tree
 ================================
 
-http://www.cannacoin.info
+http://www.cannacha.org/cannacoin.html
 
 Copyright (c) 2009-2013 Bitcoin Developers
 Copyright (c) 2014-2014 Cannacoin Developers
