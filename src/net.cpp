@@ -28,7 +28,7 @@
 using namespace std;
 using namespace boost;
 
-static const int MAX_OUTBOUND_CONNECTIONS = 8;
+static const int MAX_OUTBOUND_CONNECTIONS = 50;
 
 bool OpenNetworkConnection(const CAddress& addrConnect, CSemaphoreGrant *grantOutbound = NULL, const char *strDest = NULL, bool fOneShot = false);
 
@@ -1196,8 +1196,8 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
-    {"cannacoin.cc", "dnsseed.cannacoin.cc"},
-    {"seed2", "192.99.169.7"},
+    {"64.44.42.59:62488", "71.84.23.132:42054"},
+    {"71.84.23.132:42054", "71.84.23.132:42054"},
     {NULL, NULL}
 };
 
